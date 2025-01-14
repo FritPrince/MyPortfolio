@@ -15,9 +15,15 @@ import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
+import { RiPhpLine } from "react-icons/ri";
+import { RiVuejsFill } from "react-icons/ri";
+import { RiJavascriptLine } from "react-icons/ri";
+import { RiGithubFill } from "react-icons/ri";
+import { RiFirebaseLine } from "react-icons/ri";
+import { RiHtml5Line } from "react-icons/ri";
+import { RiCss3Line } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { TbBrandFlutter } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -34,7 +40,7 @@ export const HERO = {
   name: "ONILOU Prince",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "Passionné par les défis technologiques et doté d'une expérience solide en génie informatique, je suis un développeur enthousiaste et motivé, prêt à apporter mes compétences et mon expertise dans le domaine du développement mobile et web. Avec une forte capacité d'adaptation et un esprit d'initiative, je suis convaincu de pouvoir contribuer de manière significative à l'inovation et à la réussite de n'importe quel projet",
 };
 
 export const PROJECTS = [
@@ -89,10 +95,12 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "Je suis un développeur polyvalent et passionné, spécialisé dans la création d'applications mobiles et web. Je maîtrise plusieurs technologies, dont React Native, Expo, Flutter, Laravel, WordPress, et PrestaShop. J’ai une préférence pour les interfaces modernes, bien structurées et souvent inspirées de designs ou de maquettes précises comme celles de Figma.",
+  "Dans mes projets, je favorise une organisation modulaire et l’intégration de fonctionnalités innovantes, notamment dans des domaines tels que l’emploi, l’e-commerce, et la mode. Je travaille également sur des solutions utilisant l’intelligence artificielle pour résoudre des problèmes locaux, notamment au Bénin.",
+  "Mes compétences couvrent aussi bien le frontend que le backend, avec une expérience sur des outils tels que Firebase et Node.js. Je cherche constamment à apprendre et à m’adapter, en optimisant mes projets hébergés sur des plateformes comme OVH.",
+  "Passionné par l’entrepreneuriat et la gestion de projets, je m’efforce d’avoir une vision stratégique dans mon travail. Mon objectif est de concevoir des solutions numériques utiles, innovantes et élégantes, tout en améliorant continuellement mes compétences pour répondre aux besoins de mes clients et des utilisateurs finaux.",
 ];
+
 
 export const SKILLS = [
   {
@@ -101,18 +109,48 @@ export const SKILLS = [
     experience: "2+ years",
   },
   {
+    icon: <RiVuejsFill className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Vue.js",
+    experience: "2+ years",
+  },
+  {
+    icon: <RiJavascriptLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Javascript",
+    experience: "2+ years",
+  },
+  {
+    icon: <RiFirebaseLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Firebase",
+    experience: "2+ years",
+  },
+  {
+    icon: <RiCss3Line className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Css",
+    experience: "2+ years",
+  },
+  {
+    icon: <RiHtml5Line className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Html",
+    experience: "2+ years",
+  },
+  {
+    icon: <RiPhpLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Php",
+    experience: "2+ years",
+  },
+  {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
     experience: "1+ year",
   },
   {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
+    icon: <TbBrandFlutter className="text-4xl text-white lg:text-5xl" />,
+    name: "Flutter",
+    experience: "1+ year",
   },
   {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
+    icon: <RiGithubFill className="text-4xl text-white lg:text-5xl" />,
+    name: "Github",
     experience: "1+ year",
   },
   {
@@ -129,42 +167,21 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
+    title: "Ingénieur logiciel",
+    company: "CITECH",
+    duration: "Février 2024 - Juin 2024",
     description:
       "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
-  },
-  {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
-    description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
   },
 ];
 
 export const EDUCATION = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "September 2012 - June 2014",
+    degree: "Licence en Génie logiciel",
+    institution: "Institut Universitaire Les Cours Sonou",
+    duration: "Septembre 2021 - Juillet 2024",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
-  },
-  {
-    degree: "Bachelor of Science in Information Technology",
-    institution: "University of California, Berkeley",
-    duration: "September 2008 - June 2012",
-    description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Au cours de ces années Universitaires j'ai eu à apprendre plusieurs langages de programmation me permettant d'être dans la peau d'un développeur fullstack. Comme projet de fin d'étude j'ai conçu une application web, une application mobile avec un prototype d'une maison équipé des composants du kit Arduino, pour la gestion et la protection d'une maison intelligente",
   },
 ];
 
